@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_app"
+    tools:context=".PlayFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <TextView
+        android:id="@+id/textOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/btn_option_play"
+        android:text="Bạn muốn trả lời các câu hỏi ở lĩnh vực nào?"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12"
+        android:gravity="center_horizontal" />
+
+    <ScrollView
+        android:id="@+id/ScrollViewOption"
+        android:layout_width="410dp"
+        android:layout_height="311dp"
+        android:layout_below="@+id/textOption"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/textOption"
+        app:layout_constraintEnd_toEndOf="@id/textOption"
+        app:layout_constraintStart_toStartOf="@id/textOption"
+        app:layout_constraintTop_toBottomOf="@+id/textOption"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="60dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMath"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/btn_option_play"
+                android:drawableRight="@drawable/icon_math"
+                android:gravity="left|center"
+                android:paddingLeft="20sp"
+                android:paddingRight="20sp"
+                android:text="Toán"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.16000003" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMusic"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginEnd="24dp"
+                android:layout_toRightOf="@id/btnMath"
+                android:background="@drawable/btn_option_play"
+                android:drawableRight="@drawable/icon_music"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20sp"
+                android:text="Âm nhạc"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnGreography"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_marginRight="24dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnMovie"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="24dp"
+                android:layout_below="@id/btnMath"
+                android:background="@drawable/btn_option_play"
+                android:drawableRight="@drawable/icon_movie"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20sp"
+                android:text="Điện ảnh"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnArt"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="24dp"
+                android:layout_below="@id/btnMusic"
+                android:layout_toRightOf="@id/btnMovie"
+                android:background="@drawable/btn_option_play"
+                android:drawableRight="@drawable/icon_art"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20sp"
+                android:text="Nghệ thuật"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSience"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="24dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGreography"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="24dp"
+                android:layout_below="@id/btnMovie"
+                android:background="@drawable/btn_option_play"
+                android:drawableRight="@drawable/geography"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20sp"
+                android:text="Địa lý"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSience"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnBiology"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="24dp"
+                android:layout_below="@id/btnArt"
+                android:layout_toRightOf="@id/btnGreography"
+                android:background="@drawable/btn_option_play"
+                android:drawableRight="@drawable/icon_biology"
+                android:gravity="left|center"
+                android:paddingLeft="20dp"
+                android:paddingRight="20sp"
+                android:text="Sinh học"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                android:layout_marginRight="24dp"
+                android:layout_marginLeft="5dp" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="113dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/idea" />
+
+
+</RelativeLayout>

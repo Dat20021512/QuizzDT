@@ -1,0 +1,296 @@
+{
+   "math":{
+      "easy":[
+         {
+            "question":"Hình vuông là hình thoi?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"6 là số lẻ?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"5 là số chính phương?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Tổng 3 gốc trong tam giác bằng 180 độ?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Tam giác cân là tam giác có 3 góc bằng nhau?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         }
+      ],
+      "medium":[
+         {
+            "question":"Hàm số y = x^2 là hàm số đồng biến?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Đồ thị hàm số bậc ba có tối đa 3 điểm cực trị?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Trực giao và trọng tâm trong tam giác đều trùng nhau?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Số thực là số phức có phần ảo bằng 0",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Đúng"
+         },
+         {
+            "question":"Hai véctơ bằng nhau là hai véctơ cùng giá",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         }
+      ],
+      "hard":[
+         {
+            "question":"Phần bù của [-1;5) trong R là [-5;-1)?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Biết log2 = a, log3= b thì log45 = 15a – b?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Cosin của góc giữa 2 mặt trong tứ diện đều bằng 1/3?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Đồ thị hàm số y = 4^x nghịch biến trong [0;1]? ",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Cho hai điểm A, B cố định và một điểm M di động trong không gian sao cho góc MAB = 30 độ.  Khi đó, điểm M thuộc một mặt nón? ",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         }
+      ]
+   },
+   "Music":{
+      "easy":[
+         {
+            "question":"Có 7 nốt cơ bản trong một khuông nhạc?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Đàn guitar có 5 dây đàn",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Sáo không phải là dụng cụ âm nhạc",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Một khuông nhạc gồm 5 dòng và 4 khe",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Một bài hát bị giới hạn bởi số khuông nhạc",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         }
+      ],
+      "medium":[
+         {
+            "question":"Bài hát ”Lý cây đa” thuộc dân ca quan họ Bắc Ninh?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Bài hát ”Đi cấy” thuộc phổ nhạc từ dân ca?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Nhạc sĩ thiên tài Mozart là người nước Mỹ",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"“Em đi giữa biển vàng, nghe mêng mang trên đồng lúa hát” là câu hát trong bài hát “Đi cấy”",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Nhạc sĩ Trần Tiến là đã qua đời?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         }
+      ],
+      "hard":[
+         {
+            "question":"Mozart sáng tác khi ông 3 tuổi",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Nhạc sĩ Văn Cao sáng tác “Tiến quân ca” (Quốc ca) vào năm 1945",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Văn Cao là tác giả bài hát “Lên Đàng”",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Nhạc sĩ Trai-cốp-xki là người nước Nga",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Trong bài Rước đèn tháng 9 có 8 loại lồng đèn trong lời bài hát?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         }
+      ]
+   },
+   "Movie":{
+      "easy":[
+         {
+            "question":"Chuột Mickey là biểu tượng của hãng phim Walt Disney",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":" Bộ phim “Avenger: End Game” ra mắt vào năm 2020",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Giải thưởng Oscar do viện hàn lâm điện ảnh Mỹ tổ chức?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Bộ phim “Harry Potter” được chuyển thể từ tiểu thuyết của J.K.Rowling",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Jack là nhân vật chính trong bộ phim “Titanic”",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         }
+      ],
+      "medium":[
+         {
+            "question":"”Chúa tể những chiếc nhẫn” là ba phần phim?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Nolan là đạo diễn của bộ phim ”The Batman“?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         },
+         {
+            "question":"Iron Man là thành viên trong Avenger?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Leonardo Dicaprio là diễn viên chính trong phim Inception?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Spider-man hiện tại do nam diễn viên Tom Holland thủ vai",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         }
+      ],
+      "hard":[
+         {
+            "question":"Avatar là bộ phim có doanh thu cao nhất tính đến nay?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Liên hoan phim Cannes có tên tiếng việt là “Cành cọ vàng”?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"Giải Oscar được trao đầu tiên vào năm 1928?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"The Jazz Singer là bộ phim có tiếng đầu tiên trên thế giới?",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Dung"
+         },
+         {
+            "question":"“Snow White and the Seven Dwarfs” là bộ phim hoạt hình đầu tiên trên thế giới",
+            "answer1":"Dung",
+            "answer2":"Sai",
+            "correct":"Sai"
+         }
+      ]
+   }
+}

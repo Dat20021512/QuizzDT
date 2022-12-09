@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/action_game"
+        android:textColor="@color/black"
+        android:title="Chơi"
+        />
+    <item
+        android:id="@+id/selectChallenge"
+        android:icon="@drawable/action_view_history"
+        android:textColor="@color/black"
+        android:title="Lịch sử chơi"
+        />
+</menu>
