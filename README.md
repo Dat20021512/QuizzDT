@@ -1,3 +1,2 @@
-# MyApp2_fixed_final
-Thành làm phần Front-end + InformationActivity + LevelFragment + MainActivity + PlayFragment
-Đạt làm phần còn lại
+# Quizz DT
+Project của hai sinh viên Nguyễn Trí Thành và Trần Văn Đạt
